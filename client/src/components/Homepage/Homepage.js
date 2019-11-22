@@ -121,8 +121,8 @@ export class Homepage extends Component {
                         <button className={`box box7 ${this.state.isClicked7 ? "box-clicked" : ""}`} onClick={this.toggleClick7}>No Perks</button>
                     </div>
                     <div className="button-box4">
-                        <button className={`box box8 ${this.state.isClicked8 ? "box-clicked" : ""}`} onClick={this.toggleClick8}>Work Remotely</button>
-                        <button className={`box box9 ${this.state.isClicked9 ? "box-clicked" : ""}`} onClick={this.toggleClick9}>Work at the Office</button>
+                        <button className={`box box8 ${this.state.isClicked8 ? "box-clicked" : ""}`} onClick={this.toggleClick8}>Work At The Office</button>
+                        <button className={`box box9 ${this.state.isClicked9 ? "box-clicked" : ""}`} onClick={this.toggleClick9}>Work Remotely</button>
                     </div>
                     </div>
                 

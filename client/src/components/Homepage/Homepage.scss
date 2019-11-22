@@ -207,7 +207,8 @@
 
 .result-image {
     display: flex;
-    width: 31%;
+    flex-direction: column;
+    width: 70%;
     height: 100%;
     border-radius: 8px;
     justify-content: center;
@@ -220,6 +221,8 @@
 .image-box {
     margin-top: -5px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #D7654B;
     
